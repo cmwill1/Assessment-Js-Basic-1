@@ -31,4 +31,4 @@ const analysis = "This is the second step, where the needs of the client/consume
 const design = "This is the third step, where the requirements will help shape the look of the final product and a blueprint can be formed."
 const testingAndIntegration = "This is the fourth step, where all functions of the project created thus far will be challenged and also run through quality assurance measures."
 const implementation = "This is the sixth step, where the project will be put into production now that the steps above have been completed and are satisfied."
-const maintain = "This is the final step, where new ideas or updates can be made as needed."
+const maintain = "This is the final step, where new ideas or updates can be implemented over time as needed."
