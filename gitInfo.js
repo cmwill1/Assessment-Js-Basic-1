@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = "Git is a software tool that allows a team of programmers to work independently on their code then push to a main folder when work is completed."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,7 +19,7 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition = "GitHub is a hosting service that is cloud based where you can manage Git repositories."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,6 +27,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = "The Git init command will create a new Git repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,7 +36,7 @@
 */
 
 //CODE HERE
-
+const gitCloneDefinition = "Git clone is a command that can be used to create a copy of an existing repository."
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +44,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = "Git status displays what files have been modified in your working directory."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +57,8 @@
 */
 
 //CODE HERE
+const gitAddDefinition = "The git add command allows you to add a file to your next commit."
+const gitAddCode = "git add -A"
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +70,8 @@
 */
 
 //CODE HERE
-
+const gitCommitDefinition = 'The git commit command will move files from your staging area to the main repo.'
+const gitCommitCode = 'git commit -m "initial commit"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +80,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = 'The git push function will push your committed files from a local repo to a remote repo like github.'
