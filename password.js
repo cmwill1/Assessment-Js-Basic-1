@@ -1,27 +1,37 @@
-//Create a variable called password and set it’s value to a string of your choice. The instructions state to make 10 characters long and include at least one letter and one number.
 
-//Code here
-var password ="coding1sfn"
-if (password< 10 && password <[0-9]) {
-    console.log("fails")
-  } else {
-    console.log("success")
-  }
+// Write a conditional statement that checks the password meets the following
+// At least 10 characters long
+// Contains at least one letter and one number
+//then add 2 other variables to check of your choosing. 
+//Contains uppercase letters
+//Contains less than 20 charactersgit
 
-//   Check for prescence of upper case letters in password and check for forbidden word "password"
-const words = password.split(' ');
-console.log(words[0]);
-
+const password = "coding1sfn"
+var count =0;
+count += /[a-z]/.test(password) ? 1 : 0;
+if (count >=10){
+    console.log('success')
+    }
+count +=/\d/.test(password) ? 1 : 0;
+if(count>1){
+    console.log('success')
+} count +=/[A-Z]/.test(password)? 1 : 0;
+if(count>1){
+    console.log("fail")
+}count +=/(characters>20)/.test(password) ?1 : 0;
+if(count>1){
+    console.log('fail')
+}
 
 // Add ASCII Art to project below: 
 
-  artWork=`
-  .__             .__   .__           
-  |  |__    ____  |  |  |  |    ____  
-  |  |  \ _/ __ \ |  |  |  |   /  _ \ 
-  |   Y  \\  ___/ |  |__|  |__(  <_> )
-  |___|  / \___  >|____/|____/ \____/ 
-       \/      \/                     
-  `
+artWork=`
+.__             .__   .__           
+|  |__    ____  |  |  |  |    ____  
+|  |  \ _/ __ \ |  |  |  |   /  _ \ 
+|   Y  \\  ___/ |  |__|  |__(  <_> )
+|___|  / \___  >|____/|____/ \____/ 
+     \/      \/                     
+`
 
 console.log(artWork)
