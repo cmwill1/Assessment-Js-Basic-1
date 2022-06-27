@@ -4,7 +4,7 @@
 // Contains at least one letter and one number
 //then add 2 other variables to check of your choosing. 
 //Contains uppercase letters
-//Contains less than 20 charactersgit
+//Contains less than 20 characters
 
 const password = "coding1sfn"
 var count =0;
